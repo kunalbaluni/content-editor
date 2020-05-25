@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Resume Now</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <h2 id="what-are-you-waiting-for">
+            What are you waiting for?
+        </h2>
+        <p>
+            As soon as you've clicked the pencil icon the page will be editable and two new elements will appear; the
+            <b>toolbox</b>&nbsp;and the <b>inspector bar</b>. The toolbox by default will appear in the upper left
+            corner of the page, but it can be dragged to wherever you like. The inspector bar will appear fixed to the
+            bottom of the page (it will be empty until an element on the page is selected).
+        </p>
+        <h3 id="editable-regions">
+            Editable regions
+        </h3>
+        <p>
+            How do you know what content on the page you can edit? I admit it's not so hard to guess in this case, but
+            imagine if you will a far more elaborate page design.
+        </p>
+        <p>
+            <b>Press and hold the shift key</b>&nbsp;and after a few seconds a pulsing border will appear around the
+            regions of the page that can be edited.&nbsp;<b>To start editing, just click on any item of content</b>
+            within an editable region.
+        </p>
+        <h3 id="adding-and-converting-content">
+            Adding and converting content
+        </h3>
+        <p>
+            Other than typing, there are two ways to add new content to the page; pressing the return key while editing
+            a section of text (except pre-formatted text) or using one of the tools in the toolbox, for example to
+            insert an image, video, table, etc.
+        </p>
+        <p>
+            Some tools can also convert content, for example selecting a paragraph of text and clicking the list tool
+            will convert the paragraph to a new list.
+        </p>
+      
+    </section>
+    <div class="ba-edit-section col-sm-3">
+        <button type="button" class="btn btn-primary " id="ba-edit"><i class="fa fa-pencil"
+                aria-hidden="true"></i></button>
+        <button type="button" class="btn btn-primary hide" id="ba-cancel"><i class="fa fa-times"
+                aria-hidden="true"></i></button>
+        <button type="button" class="btn btn-primary hide" id="ba-save-code"><i class="fa fa-floppy-o"
+                aria-hidden="true"></i></button>
+        <div class="ba-options" id="ba-options">
+            <button type="button" class="btn btn-primary" id="paragraph-select">P</button>
+            <button type="button" class="btn btn-primary" id="heading-select">H</button>
+            <lable>Font size</lable>
+            <input type="text" id="fontsize-control"/>
+            <lable>Color</lable>
+            <input type="text" id="fontcolor-control"/>
+            <lable>Backgroung Color</lable>
+            <input type="text" id="bgcolor-control"/>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/admin-content-editor.js"></script>
+    <script>
+        $('#carousel-lg').carousel('next');;
+    </script>
+</body>
+
+</html>

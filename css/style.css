@@ -1,0 +1,22 @@
+/**reset css starts here**/
+        body { font-family: 'Work Sans', sans-serif; color: #333; font-size: 13px; font-weight: normal; line-height: 20px; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+        a:focus, a:hover { color: #444; text-decoration: none }
+        a:focus, a:active { color: #222; text-decoration: none }
+        a:focus, .btn:focus, .btn:active:focus, .btn.active:focus { outline: 0 }
+        ul { list-style: none; padding: 0 }
+        a { text-decoration: none; }
+        h1, h2, h3, h4, h5, h6, p { margin: 10px 0 10px 0;}
+        h1, h2, h3, h4, h5, h6 { margin: 50px 0 10px 0;}
+        img { max-width: 100%; height: auto; display: inline-block; }
+        .img-responsive { display: inline-block; }
+        .m0 { margin: 0 !important }
+        body { height: 100vh; }
+        /**reset css ends here**/
+     
+
+ /** editor css **/
+ .ba-ce-focused{background: #faebd7}       
+ .ba-edit-section{position: fixed; top:20px; left:20px}
+ .ba-edit-section button{width:40px; height:40px; vertical-align: middle; text-align: center; border-radius: 50%; padding: 0;}
+ .ba-options{width: 75px;     margin: 2px 0 0 -18px; background: #b3b3b3; padding: 10px; border-radius: 5px;}
+ .ba-options button{width:20px; height:20px; border-radius: 5px;}
